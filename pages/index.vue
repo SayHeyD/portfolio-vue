@@ -3,7 +3,7 @@
     <div class="bg-green-400 py-32">
       <div class="flex justify-around">
 
-        <div class="w-1/2 animate-move-in z-0">
+        <div class="w-1/2 animate-move-in">
           <div class="monitor">
             <div class="display">
               <div class="drawn-header"></div>
@@ -19,7 +19,7 @@
           <div class="monitor-foot"></div>
         </div>
 
-        <div class="w-1/2">
+        <div class="w-1/2 animate-move-in">
           <h2 class="w-full h-full flex justify-center items-center text-7xl font-semibold text-gray-100">
             <span class="inline-flex flex-col justify-center items-center">
               <span>David Docampo</span>
