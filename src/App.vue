@@ -1,6 +1,8 @@
 <template>
     <div class="flex">
-        <div class="w-1/4"></div>
+        <div class="w-1/4">
+            <h1>David Docampo - Portfolio</h1>
+        </div>
         <nav class="w-3/4 transform bg-gray-200 duration-300 flex justify-between" :class="{'translate-x-11/12': !open}">
             <div class="flex justify-center items-center text-xl w-1/12 cursor-pointer" v-text="open ? '>' : '<'" @click="toggleMenu"></div>
             <div class="flex-1 flex justify-center">
