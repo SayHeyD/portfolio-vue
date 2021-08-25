@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <p>Projects</p>
+        <p>Resume</p>
     </Layout>
 </template>
 
