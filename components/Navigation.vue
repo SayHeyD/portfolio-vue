@@ -15,16 +15,24 @@
             </div>
             <ul class="flex flex-1 justify-between w-3/4 list-none">
                 <li class="h-full flex justify-center items-center mx-4">
-                    <NuxtLink class="hover:underline text-xl" to="/">Home</NuxtLink>
+                    <NuxtLink class="text-xl inline-block w-full h-full py-4 border-b-2 hover:border-white"
+                        :class="[$route.name === 'index' ? 'border-white' : 'border-transparent']"
+                        to="/">Home</NuxtLink>
                 </li>
                 <li class="h-full flex justify-center items-center mx-4">
-                    <NuxtLink class="hover:underline text-xl" to="/certificates">Certificates</NuxtLink>
+                    <NuxtLink class="text-xl inline-block w-full h-full py-4 border-b-2 hover:border-white"
+                        :class="[$route.name === 'certificates' ? 'border-white' : 'border-transparent']"
+                        to="/certificates">Certificates</NuxtLink>
                 </li>
                 <li class="h-full flex justify-center items-center mx-4">
-                    <NuxtLink class="hover:underline text-xl" to="/projects">Projects</NuxtLink>
+                    <NuxtLink class="text-xl inline-block w-full h-full py-4 border-b-2 hover:border-white"
+                        :class="[$route.name === 'certificates' ? 'border-white' : 'border-transparent']"
+                        to="/projects">Projects</NuxtLink>
                 </li>
                 <li class="h-full flex justify-center items-center mx-4">
-                    <NuxtLink class="hover:underline text-xl" to="/contact">Contact</NuxtLink>
+                    <NuxtLink class="text-xl inline-block w-full h-full py-4 border-b-2 hover:border-white"
+                        :class="[$route.name === 'certificates' ? 'border-white' : 'border-transparent']"
+                        to="/contact">Contact</NuxtLink>
                 </li>
             </ul>
         </div>
