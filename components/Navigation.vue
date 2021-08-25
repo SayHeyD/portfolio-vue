@@ -26,12 +26,12 @@
                 </li>
                 <li class="h-full flex justify-center items-center mx-4">
                     <NuxtLink class="text-xl inline-block w-full h-full py-4 border-b-2 hover:border-white"
-                        :class="[$route.name === 'certificates' ? 'border-white' : 'border-transparent']"
-                        to="/projects">Projects</NuxtLink>
+                        :class="[$route.name === 'resume' ? 'border-white' : 'border-transparent']"
+                        to="/resume">Resume</NuxtLink>
                 </li>
                 <li class="h-full flex justify-center items-center mx-4">
                     <NuxtLink class="text-xl inline-block w-full h-full py-4 border-b-2 hover:border-white"
-                        :class="[$route.name === 'certificates' ? 'border-white' : 'border-transparent']"
+                        :class="[$route.name === 'contact' ? 'border-white' : 'border-transparent']"
                         to="/contact">Contact</NuxtLink>
                 </li>
             </ul>
