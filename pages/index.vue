@@ -3,10 +3,10 @@
     <div class="bg-green-400 py-32">
       <div class="absolute w-full flex justify-end pr-20">
         <div>
-          <div class="mt-16 ml-32 bg-green-300 h-12 w-96 rounded-full"></div>
-          <div class="mt-8 ml-96 bg-green-500 h-12 w-96 rounded-full"></div>
-          <div class="mt-6 ml-16 bg-green-300 h-12 w-96 rounded-full"></div>
-          <div class="mt-8 ml-64 bg-green-500 h-12 w-96 rounded-full"></div>
+          <div class="mt-16 ml-32 bg-green-500 h-12 w-96 rounded-full"></div>
+          <div class="mt-8 ml-96 bg-green-700 h-12 w-96 rounded-full"></div>
+          <div class="mt-6 ml-16 bg-green-500 h-12 w-96 rounded-full"></div>
+          <div class="mt-8 ml-64 bg-green-700 h-12 w-96 rounded-full"></div>
         </div>
       </div>
       <div class="flex justify-around">
@@ -37,7 +37,7 @@
                 :text='[
                   "IT-Enthusiast",
                   "Web-Dev",
-                  "Gamer"
+                  "Hobby Musician"
                 ]'
                 :repeat='Infinity'
                 :shuffle='false'
