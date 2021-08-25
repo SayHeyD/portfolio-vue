@@ -1,6 +1,14 @@
 <template>
   <Layout>
     <div class="bg-green-400 py-32">
+      <div class="absolute w-full flex justify-end pr-20">
+        <div>
+          <div class="mt-16 ml-32 bg-green-300 h-12 w-96 rounded-full"></div>
+          <div class="mt-8 ml-96 bg-green-500 h-12 w-96 rounded-full"></div>
+          <div class="mt-6 ml-16 bg-green-300 h-12 w-96 rounded-full"></div>
+          <div class="mt-8 ml-64 bg-green-500 h-12 w-96 rounded-full"></div>
+        </div>
+      </div>
       <div class="flex justify-around">
 
         <div class="w-1/2 animate-move-in">
@@ -19,7 +27,7 @@
           <div class="monitor-foot"></div>
         </div>
 
-        <div class="w-1/2 animate-move-in">
+        <div class="w-1/2 animate-move-in z-10">
           <h2 class="w-full h-full flex justify-center items-center text-7xl font-semibold text-gray-100">
             <span class="inline-flex flex-col justify-center items-center">
               <span>David Docampo</span>
